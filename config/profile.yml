@@ -1,0 +1,112 @@
+# Career-Ops Profile Configuration - Pratik Sawant
+# Customized for: H-1B sponsorship required, Remote-only, 150k+ minimum
+# Target: Senior/Lead/Staff Decision Scientist, Senior/Lead Data Analyst, Sr BI Engineer
+
+candidate:
+  full_name: "Pratik Sawant"
+  email: "pratik@example.com"
+  phone: "+1-508-555-0000"
+  location: "Franklin, MA (Remote-only)"
+  linkedin: "linkedin.com/in/pratiksawant"
+  github: "github.com/PratikSawant"
+  timezone: "EST"
+
+target_roles:
+  # North Star roles — what you are optimizing for
+  primary:
+    - "Senior Decision Scientist"
+    - "Lead Decision Scientist"
+    - "Staff Decision Scientist"
+    - "Lead Data Analyst"
+    - "Senior Data Analyst"
+    - "Sr BI Engineer"
+    - "Senior Analytics Engineer"
+  archetypes:
+    - name: "Decision Scientist"
+      level: "Senior/Lead/Staff"
+      fit: "primary"
+    - name: "Data Analyst"
+      level: "Senior/Lead"
+      fit: "primary"
+    - name: "BI Engineer"
+      level: "Senior/Staff"
+      fit: "primary"
+    - name: "Analytics Engineer"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Data Scientist"
+      level: "Senior"
+      fit: "secondary"
+
+narrative:
+  headline: "Senior Decision Scientist | 10+ years delivering healthcare analytics, BI, and operational insights at CVS Health, Humana, and Deloitte"
+  exit_story: "10+ years in enterprise healthcare analytics across CVS/Caremark, CVS Pharmacy, Humana, and Deloitte. Expert in SQL, Python, Tableau, Power BI, BigQuery, Snowflake. Known for owning end-to-end BI systems, automating reporting pipelines, and translating complex data into executive-level decisions."
+  superpowers:
+    - "Production-grade dashboard ownership (Tableau, Power BI, Looker)"
+    - "ETL/reporting pipeline automation reducing manual hours by 60-80%"
+    - "Healthcare analytics: clinical ops, pharmacy, payer/provider data"
+    - "Senior stakeholder communication and cross-functional analytics leadership"
+    - "Cloud data platforms: BigQuery, Snowflake, Redshift, AWS, GCP"
+  proof_points:
+    - name: "Automated Reporting Pipeline at CVS/Caremark"
+      hero_metric: "Reduced manual reporting time by 75%, saving 20+ hours/week"
+    - name: "MinuteClinic Scheduling Analytics"
+      hero_metric: "Improved clinic utilization forecasting accuracy by 30%"
+    - name: "Enterprise BI Dashboard Ownership"
+      hero_metric: "Built and owned 15+ production dashboards used by VP-level stakeholders"
+
+compensation:
+  target_range: "$160K-200K"
+  currency: "USD"
+  minimum: "$150K"  # Hard walk-away floor — DO NOT apply below this
+  equity_preference: "valued but not required"
+  location_flexibility: "Remote only — no hybrid, no on-site"
+
+location:
+  country: "United States"
+  state: "Massachusetts"
+  city: "Franklin"
+  timezone: "EST"
+  remote_only: true  # HARD CONSTRAINT — reject all hybrid and on-site roles
+  visa_status: "H-1B — sponsorship REQUIRED"
+  sponsorship_required: true  # HARD CONSTRAINT — reject any role stating no sponsorship
+
+hard_filters:
+  # These are non-negotiable reject conditions. Any job failing one of these is auto-rejected.
+  reject_if:
+    - no_sponsorship: true        # Reject if posting says "no visa sponsorship" or "US citizen/GC only"
+    - hybrid_or_onsite: true      # Reject if work mode is hybrid or on-site
+    - salary_below_150k: true     # Reject if stated max salary is below $150K
+    - junior_title: true          # Reject if title is analyst I/II without senior/lead qualifier
+  sponsorship_signals:
+    strong_yes:
+      - "H-1B sponsorship available"
+      - "we sponsor visas"
+      - "open to all work authorizations"
+    ambiguous:
+      - "must be authorized to work in the US"  # keep but flag
+    strong_no:
+      - "no visa sponsorship"
+      - "US citizens and green card holders only"
+      - "must be US citizen"
+      - "security clearance required"
+
+preferred_industries:
+  tier_1:
+    - Healthcare (payer, provider, pharmacy, clinical ops)
+    - Health tech / digital health
+    - Enterprise analytics SaaS
+    - Insurance and financial services
+  tier_2:
+    - Retail and e-commerce (large-scale, data-mature)
+    - Consulting and professional services
+    - Fintech
+  tier_3:
+    - General enterprise / Fortune 500 with mature BI teams
+
+scoring_weights:
+  sponsorship_h1b: 30       # Highest weight — non-negotiable
+  remote_only: 25           # Must be fully remote
+  compensation_floor: 20    # Must be 150k minimum
+  role_title_fit: 15        # Must match senior/lead/staff analytics or BI
+  industry_fit: 10          # Prefer healthcare and analytics-rich domains
