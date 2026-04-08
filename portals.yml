@@ -1,0 +1,296 @@
+# portals.yml - Pratik Sawant Career-Ops Company Scanner Configuration
+# Customized for: H-1B sponsorship required | Remote only | 150k+ minimum
+# Target: Senior/Lead/Staff Decision Scientist, Senior/Lead Data Analyst, Sr BI Engineer
+#
+# SCAN PRIORITY:
+# - All companies below are H-1B friendly (active sponsors or strong history)
+# - All search queries are filtered for remote roles
+# - Title queries target senior/lead/staff analytics and BI tracks
+
+portals:
+
+  # ============================================================
+  # TIER 1: HEALTHCARE / PAYER / PHARMACY (strongest domain fit)
+  # ============================================================
+
+  - name: "Humana"
+    careers_url: "https://careers.humana.com"
+    search_queries:
+      - "senior decision scientist remote"
+      - "lead data analyst remote"
+      - "senior data scientist remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 1
+    notes: "Former employer. Strong domain fit. Known H-1B sponsor."
+
+  - name: "UnitedHealth Group / Optum"
+    careers_url: "https://careers.unitedhealthgroup.com"
+    search_queries:
+      - "senior decision scientist remote"
+      - "lead data analyst remote"
+      - "staff data scientist remote"
+      - "senior bi engineer remote"
+    h1b_sponsor: true
+    tier: 1
+    notes: "Largest health insurer. Huge analytics team. Strong H-1B history."
+
+  - name: "Cigna / Evernorth"
+    careers_url: "https://jobs.cigna.com"
+    search_queries:
+      - "senior decision scientist remote"
+      - "lead data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 1
+
+  - name: "Anthem / Elevance Health"
+    careers_url: "https://careers.elevancehealth.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead decision scientist remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 1
+
+  - name: "Centene Corporation"
+    careers_url: "https://jobs.centene.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior decision scientist remote"
+    h1b_sponsor: true
+    tier: 1
+
+  - name: "Molina Healthcare"
+    careers_url: "https://careers.molinahealthcare.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead data analyst remote"
+    h1b_sponsor: true
+    tier: 1
+
+  - name: "Health Catalyst"
+    careers_url: "https://www.healthcatalyst.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+      - "staff decision scientist remote"
+    h1b_sponsor: true
+    tier: 1
+    notes: "Healthcare analytics platform. Strong analytics culture."
+
+  - name: "Innovaccer"
+    careers_url: "https://innovaccer.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 1
+
+  - name: "Cotiviti"
+    careers_url: "https://careers.cotiviti.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead data analyst remote"
+      - "senior decision scientist remote"
+    h1b_sponsor: true
+    tier: 1
+    notes: "Healthcare analytics and payment accuracy. Strong SQL/Python analytics focus."
+
+  - name: "Inovalon"
+    careers_url: "https://www.inovalon.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 1
+
+  - name: "Veeva Systems"
+    careers_url: "https://careers.veeva.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead analytics engineer remote"
+    h1b_sponsor: true
+    tier: 1
+    notes: "Life sciences SaaS. Remote-first culture."
+
+  - name: "Evolent Health"
+    careers_url: "https://www.evolenthealth.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead decision scientist remote"
+    h1b_sponsor: true
+    tier: 1
+
+  - name: "Accolade Health"
+    careers_url: "https://www.accolade.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 1
+
+  # ============================================================
+  # TIER 2: ANALYTICS SAAS / ENTERPRISE DATA PLATFORMS
+  # ============================================================
+
+  - name: "Databricks"
+    careers_url: "https://www.databricks.com/company/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead analytics engineer remote"
+      - "senior decision scientist remote"
+    h1b_sponsor: true
+    tier: 2
+    notes: "Strong analytics culture. Remote-friendly. H-1B sponsor."
+
+  - name: "dbt Labs"
+    careers_url: "https://www.getdbt.com/dbt-labs/open-roles"
+    search_queries:
+      - "senior analytics engineer remote"
+      - "senior data analyst remote"
+    h1b_sponsor: true
+    tier: 2
+    notes: "Remote-first company."
+
+  - name: "Fivetran"
+    careers_url: "https://www.fivetran.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 2
+
+  - name: "ThoughtSpot"
+    careers_url: "https://www.thoughtspot.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 2
+
+  - name: "Sigma Computing"
+    careers_url: "https://www.sigmacomputing.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 2
+
+  - name: "Hex Technologies"
+    careers_url: "https://hex.tech/company/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 2
+
+  - name: "Monte Carlo"
+    careers_url: "https://www.montecarlodata.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 2
+
+  # ============================================================
+  # TIER 3: LARGE ENTERPRISE / FINTECH / RETAIL
+  # ============================================================
+
+  - name: "Capital One"
+    careers_url: "https://www.capitalonecareers.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead data analyst remote"
+      - "senior decision scientist remote"
+      - "principal data analyst remote"
+    h1b_sponsor: true
+    tier: 3
+    notes: "Known H-1B sponsor. Large analytics org. Remote roles available."
+
+  - name: "American Express"
+    careers_url: "https://jobs.americanexpress.com"
+    search_queries:
+      - "senior decision scientist remote"
+      - "lead data analyst remote"
+    h1b_sponsor: true
+    tier: 3
+
+  - name: "JPMorgan Chase"
+    careers_url: "https://careers.jpmorgan.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead analytics engineer remote"
+    h1b_sponsor: true
+    tier: 3
+    notes: "Very large analytics org. Remote roles available."
+
+  - name: "Fidelity Investments"
+    careers_url: "https://jobs.fidelity.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead decision scientist remote"
+    h1b_sponsor: true
+    tier: 3
+
+  - name: "Amazon / AWS"
+    careers_url: "https://www.amazon.jobs"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead data analyst remote"
+      - "senior decision scientist remote"
+    h1b_sponsor: true
+    tier: 3
+    notes: "Large analytics org. Remote roles available across WFS, AWS, health verticals."
+
+  - name: "Wayfair"
+    careers_url: "https://www.wayfair.com/careers"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior analytics engineer remote"
+    h1b_sponsor: true
+    tier: 3
+
+  - name: "DoorDash"
+    careers_url: "https://careers.doordash.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "lead decision scientist remote"
+    h1b_sponsor: true
+    tier: 3
+
+  - name: "Airbnb"
+    careers_url: "https://careers.airbnb.com"
+    search_queries:
+      - "senior data analyst remote"
+      - "senior decision scientist remote"
+    h1b_sponsor: true
+    tier: 3
+
+# ============================================================
+# SCAN SETTINGS
+# ============================================================
+
+scan_settings:
+  remote_only: true            # Only return remote roles
+  sponsorship_required: true   # Flag or skip roles with "no sponsorship"
+  min_salary: 150000           # Skip roles with stated max below this
+  title_level_filter:          # Only match these seniority levels
+    - senior
+    - lead
+    - staff
+    - principal
+  exclude_titles:              # Never match these patterns
+    - "junior"
+    - "associate analyst"
+    - "analyst i"
+    - "analyst ii"
+    - "entry level"
+  job_boards_to_scan:
+    - Greenhouse
+    - Lever
+    - Workday
+    - Ashby
+    - SmartRecruiters
+    - Wellfound
+    - LinkedIn (supplemental)
